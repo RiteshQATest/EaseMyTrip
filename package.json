@@ -4,7 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:debug": "npx playwright test --debug",
+    "test:homepage": "npx playwright test tests/homepage.spec.js",
+    "test:flights": "npx playwright test tests/specs/flights_page.spec.js",
+    "test:all": "npx playwright test tests/",
+    "test:report": "npx playwright show-report",
+    "test:ui": "npx playwright test --ui"
   },
   "keywords": [],
   "author": "",
