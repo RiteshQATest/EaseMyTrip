@@ -1,0 +1,23 @@
+{
+  "name": "testng_easemytrip",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.59.1",
+    "chai": "^6.2.2",
+    "dotenv": "^17.4.2",
+    "eslint": "^10.2.1",
+    "mocha": "^11.7.5",
+    "mocha-junit-reporter": "^2.2.1",
+    "mochawesome": "^7.1.4",
+    "winston": "^3.19.0"
+  }
+}
